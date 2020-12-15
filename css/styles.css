@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Work Sans', sans-serif;
+    
+}
+.header {
+    height: 100vh;
+    background-image: linear-gradient(to right, rgba(238, 37, 37, 0.657),rgba(15, 24, 148, 0.5)), url(../images/bg.png);
+    position: relative;
+}
+.content {
+    background-color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 60%;
+    height: 70%;
+}
