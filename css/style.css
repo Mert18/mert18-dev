@@ -6,6 +6,9 @@
   padding: 0px;
   box-sizing: border-box; }
 
+h1 {
+  color: red; }
+
 body {
   font-family: 'Work Sans', sans-serif;
   font-weight: 600; }
@@ -24,7 +27,10 @@ body {
   background-image: linear-gradient(to right bottom, rgba(83, 13, 175, 0.144), rgba(39, 2, 2, 0.226)), url(../images/bg.png);
   background-position: center;
   background-size: cover;
-  -webkit-filter: opacity(0.6); }
+  -webkit-filter: opacity(0.5); }
+
+.content__header {
+  color: red; }
 
 @keyframes moveInTop {
   0% {

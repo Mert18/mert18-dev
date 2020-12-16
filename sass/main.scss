@@ -1,11 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap');
 
+$color-text:red;
+
 *,
 *::after,
 *::before {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+}
+h1 {
+    color: $color-text;
 }
 
 body {
@@ -27,7 +32,10 @@ body {
     background-image: linear-gradient(to right bottom, rgba(83, 13, 175, 0.144), rgba(39, 2, 2, 0.226)), url(../images/bg.png);
     background-position: center;
     background-size: cover;
-    -webkit-filter: opacity(0.6);
+    -webkit-filter: opacity(0.5);
+}
+.content__header {
+    color: $color-text;
 }
 
 @keyframes moveInTop {
