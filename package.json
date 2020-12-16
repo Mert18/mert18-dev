@@ -1,0 +1,24 @@
+{
+  "name": "mert18-dev",
+  "version": "1.0.0",
+  "description": "My portfolio site.",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass":"node-sass sass/main.scss css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mert18/mert18-dev.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mert18/mert18-dev/issues"
+  },
+  "homepage": "https://github.com/Mert18/mert18-dev#readme",
+  "dependencies": {
+    "node-sass": "^5.0.0"
+  },
+  "devDependencies": {}
+}
