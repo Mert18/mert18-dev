@@ -1,0 +1,15 @@
+*,
+*::after,
+*::before {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+h1 {
+    color: $main-color-1;
+}
+
+body {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 600;
+}
