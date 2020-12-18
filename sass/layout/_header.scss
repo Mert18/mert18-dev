@@ -1,96 +1,71 @@
 .header {
-    height: 100vh;
-    position: relative;
+    height: 90vh;
+    padding-top: 5vh;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     .nav {
-        width: 100%;
-        height: 16vh;
-        display: flex;
-        justify-content: space-between;
+        width: 30%;
+        height: 80vh;
         &__textbox {
-            margin: 2%;
-            animation: moveInTop 2.5s;
+            text-align: center;
+            margin-top: 5vh;
+            animation: moveInTop 2s;
         }
         &__list {
-            align-self: center;
-            margin-right: 5%;
-            animation: moveInTop2 2s;
-            a {
-                text-decoration: none;
-                margin-right: 6rem;
-                font-size: 1.1rem;
-                color: $main-color-3;
-                &:hover{
+            text-align: center;
+            margin-top: 5vh;
+            div {
+                animation: moveInLeft 2s;
+                display: block;
+                height: 12vh;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                transition: all ease-in-out .3s;
+                &:hover {
+                    background-color: $main-color-1;
+                    a {
+                        color: white;
+                    }
+                }
+                &:not(:last-child) {
+                }
+                a {
+                    text-decoration: none;
+                    font-size: 1.2rem;
+                    width: 100%;
+                    height: 100%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
                     color: $main-color-1;
-                    transition: ease-in-out .4s;
                 }
             }
         }
     }
-    .enter {
-        width: 90%;
-        height: 78vh;
-        margin: 0 auto;
-        margin-top: 1.5%;
+    .content {
+        width: 70%;
+        height:80vh ;
         display: flex;
         justify-content: center;
         align-items: center;
-        
-        .circle {
-            width: 45%;
-            height: 100%;
-            border-radius: 50%;
-            overflow: hidden;
+        .image {
+            background: url(../../images/icecreamgreen.svg);
+            background-size: 60%;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 70%;
+            width: 60%;
+            animation: rotate 8s forwards infinite;
             position: relative;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            animation: spin 100s infinite;
-            .whatiknow {
-                background: url(../../images/icecream.png);
-                background-position: center;
-                background-size: cover;
-                background-repeat: no-repeat;
-                position: absolute;
-                width: 50%;
-                height: 50%;
-                top: 0%;
-                left: 0%;
-            }
-            .projects {
-                background: url(../../images/Original-01.png);
-                background-position: center;
-                background-size: cover;
-                background-repeat: no-repeat;
-                position: absolute;
-                width: 50%;
-                height: 50%;
-                top:0%;
-                left: 50%;
-            }
-            .illustrations{
-                background: url(../../images/firstcanvas.svg);
-                background-position: center;
-                background-size: cover;
-                background-repeat: no-repeat;
-                position: absolute;
-                width: 50%;
-                height: 50%;
-                top: 50%;
-                left: 0%;
-            }
-            .contact {
-                background: url(../../images/smile.png);
-                background-position: center;
-                background-size: cover;
-                background-repeat: no-repeat;
-                position: absolute;
-                width: 50%;
-                height: 50%;
-                top: 50%;
-                left: 50%;
-            }
         }
+
     }
 }
+
+
 
 
