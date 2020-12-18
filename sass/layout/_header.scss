@@ -7,18 +7,18 @@
         display: flex;
         justify-content: space-between;
         &__textbox {
-            margin: 1.3rem;
+            margin: 2%;
             animation: moveInTop 2.5s;
         }
         &__list {
             align-self: center;
-            margin-right: 10rem;
+            margin-right: 5%;
             animation: moveInTop2 2s;
             a {
                 text-decoration: none;
                 margin-right: 6rem;
                 font-size: 1.1rem;
-                color: $main-color-2;
+                color: $main-color-3;
                 &:hover{
                     color: $main-color-1;
                     transition: ease-in-out .4s;
@@ -26,4 +26,71 @@
             }
         }
     }
+    .enter {
+        width: 90%;
+        height: 78vh;
+        margin: 0 auto;
+        margin-top: 1.5%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        .circle {
+            width: 45%;
+            height: 100%;
+            border-radius: 50%;
+            overflow: hidden;
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            animation: spin 100s infinite;
+            .whatiknow {
+                background: url(../../images/icecream.png);
+                background-position: center;
+                background-size: cover;
+                background-repeat: no-repeat;
+                position: absolute;
+                width: 50%;
+                height: 50%;
+                top: 0%;
+                left: 0%;
+            }
+            .projects {
+                background: url(../../images/Original-01.png);
+                background-position: center;
+                background-size: cover;
+                background-repeat: no-repeat;
+                position: absolute;
+                width: 50%;
+                height: 50%;
+                top:0%;
+                left: 50%;
+            }
+            .illustrations{
+                background: url(../../images/firstcanvas.svg);
+                background-position: center;
+                background-size: cover;
+                background-repeat: no-repeat;
+                position: absolute;
+                width: 50%;
+                height: 50%;
+                top: 50%;
+                left: 0%;
+            }
+            .contact {
+                background: url(../../images/smile.png);
+                background-position: center;
+                background-size: cover;
+                background-repeat: no-repeat;
+                position: absolute;
+                width: 50%;
+                height: 50%;
+                top: 50%;
+                left: 50%;
+            }
+        }
+    }
 }
+
+

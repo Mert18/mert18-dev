@@ -27,15 +27,15 @@
   0% {
     opacity: 0;
     transform: translateY(-300px); }
-  40% {
-    opacity: 0.8;
-    transform: translateY(30px); }
-  80% {
-    opacity: 0.9;
-    transform: translate(30px); }
   100% {
     opacity: 1;
     transform: translate(0); } }
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg); }
+  to {
+    transform: rotate(360deg); } }
 
 *,
 *::after,
@@ -45,7 +45,7 @@
   box-sizing: border-box; }
 
 h1 {
-  color: green; }
+  color: red; }
 
 body {
   font-family: 'Work Sans', sans-serif;
@@ -60,17 +60,75 @@ body {
     display: flex;
     justify-content: space-between; }
     .header .nav__textbox {
-      margin: 1.3rem;
+      margin: 2%;
       animation: moveInTop 2.5s; }
     .header .nav__list {
       align-self: center;
-      margin-right: 10rem;
+      margin-right: 5%;
       animation: moveInTop2 2s; }
       .header .nav__list a {
         text-decoration: none;
         margin-right: 6rem;
         font-size: 1.1rem;
-        color: black; }
+        color: #393e46; }
         .header .nav__list a:hover {
-          color: green;
+          color: red;
           transition: ease-in-out .4s; }
+  .header .enter {
+    width: 90%;
+    height: 78vh;
+    margin: 0 auto;
+    margin-top: 1.5%;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .header .enter .circle {
+      width: 45%;
+      height: 100%;
+      border-radius: 50%;
+      overflow: hidden;
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      animation: spin 100s infinite; }
+      .header .enter .circle .whatiknow {
+        background: url(../../images/icecream.png);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: absolute;
+        width: 50%;
+        height: 50%;
+        top: 0%;
+        left: 0%; }
+      .header .enter .circle .projects {
+        background: url(../../images/Original-01.png);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: absolute;
+        width: 50%;
+        height: 50%;
+        top: 0%;
+        left: 50%; }
+      .header .enter .circle .illustrations {
+        background: url(../../images/firstcanvas.svg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: absolute;
+        width: 50%;
+        height: 50%;
+        top: 50%;
+        left: 0%; }
+      .header .enter .circle .contact {
+        background: url(../../images/smile.png);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: absolute;
+        width: 50%;
+        height: 50%;
+        top: 50%;
+        left: 50%; }
