@@ -60,13 +60,14 @@ body {
   font-weight: 600; }
 
 .header {
-  height: 90vh;
+  height: 97vh;
   padding-top: 5vh;
   width: 90%;
   margin: 0 auto;
   display: flex;
   justify-content: center;
-  align-items: center; }
+  align-items: center;
+  border: 2px solid black; }
   .header .nav {
     width: 30%;
     height: 80vh; }
@@ -113,3 +114,11 @@ body {
       width: 60%;
       animation: rotate 8s forwards infinite;
       position: relative; }
+
+button {
+  background-color: green;
+  color: white;
+  width: 5rem;
+  height: 2rem;
+  border: none;
+  border-radius: 4rem; }
