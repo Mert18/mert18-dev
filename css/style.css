@@ -71,15 +71,21 @@ body {
   .text-header2 h2 {
     color: green; }
 
+.text-headerr {
+  color: green;
+  padding: 0.5rem 0.5rem;
+  text-align: right;
+  font-weight: 400; }
+
 .header {
-  height: 97vh;
+  height: 100vh;
   padding-top: 5vh;
   width: 90%;
   margin: 0 auto;
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 2px solid black; }
+  background-color: #fffafa8e; }
   .header .nav {
     width: 30%;
     height: 80vh; }
@@ -127,35 +133,50 @@ body {
       animation: rotate 8s forwards infinite;
       position: relative; }
 
-.main {
+main {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center; }
-  .main .whatiknow {
+  main .whatiknow {
     width: 90%;
     height: 97vh;
     margin-top: 5vh;
-    border: 2px solid red; }
-    .main .whatiknow__content {
-      display: flex;
-      justify-content: center;
-      border: 2px solid black;
+    background-color: #fffafa8e; }
+    main .whatiknow__content {
       width: 100%;
-      height: 100%;
-      text-align: center; }
-  .main .projects {
+      height: 92%;
+      border: 2px solid black;
+      display: flex; }
+      main .whatiknow__content__left {
+        flex: 1;
+        border: 2px solid black;
+        display: flex; }
+        main .whatiknow__content__left .react {
+          width: 10%;
+          background-image: url(../../images/react512.svg);
+          background-repeat: no-repeat;
+          background-size: contain; }
+        main .whatiknow__content__left .html {
+          width: 10%;
+          background-image: url(../../images/html.svg);
+          background-repeat: no-repeat;
+          background-size: contain; }
+      main .whatiknow__content__right {
+        flex: 1;
+        border: 2px solid black; }
+  main .projects {
     width: 90%;
     height: 97vh;
     margin-top: 5vh;
     border: 2px solid red; }
-  .main .illustrations {
+  main .illustrations {
     width: 90%;
     height: 97vh;
     margin-top: 5vh;
     border: 2px solid red; }
-  .main .contact {
+  main .contact {
     width: 90%;
     height: 97vh;
     margin-top: 5vh;
