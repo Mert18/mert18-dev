@@ -152,20 +152,43 @@ main {
       main .whatiknow__content__left {
         flex: 1;
         border: 2px solid black;
-        display: flex; }
-        main .whatiknow__content__left .react {
+        display: flex;
+        flex-wrap: wrap;
+        height: 100%; }
+        main .whatiknow__content__left div {
+          margin: 2rem;
           width: 10%;
-          background-image: url(../../images/react512.svg);
+          height: 10%;
           background-repeat: no-repeat;
           background-size: contain; }
         main .whatiknow__content__left .html {
-          width: 10%;
-          background-image: url(../../images/html.svg);
-          background-repeat: no-repeat;
-          background-size: contain; }
+          background-image: url(../../images/html.svg); }
+        main .whatiknow__content__left .css {
+          background-image: url(../../images/cssicon.svg); }
+        main .whatiknow__content__left .js {
+          background-image: url(../../images/js.svg); }
+        main .whatiknow__content__left .react {
+          background-image: url(../../images/react.svg); }
+        main .whatiknow__content__left .sass {
+          background-image: url(../../images/sass.svg); }
       main .whatiknow__content__right {
         flex: 1;
-        border: 2px solid black; }
+        border: 2px solid black;
+        display: flex;
+        flex-wrap: wrap;
+        height: 100%; }
+        main .whatiknow__content__right div {
+          margin: 2rem;
+          width: 10%;
+          height: 10%;
+          background-repeat: no-repeat;
+          background-size: contain; }
+        main .whatiknow__content__right .linux {
+          background-image: url(../../images/linux.svg); }
+        main .whatiknow__content__right .git {
+          background-image: url(../../images/git.svg); }
+        main .whatiknow__content__right .docker {
+          background-image: url(../../images/docker.svg); }
   main .projects {
     width: 90%;
     height: 97vh;

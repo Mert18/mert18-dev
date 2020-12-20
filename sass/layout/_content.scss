@@ -18,23 +18,53 @@ main {
                 flex: 1;
                 border: 2px solid black;
                 display: flex;
-                .react {
+                flex-wrap: wrap;
+                height: 100%;
+                div {
+                    margin: 2rem;
                     width: 10%;
-                    background-image: url(../../images/react512.svg);
+                    height: 10%;
                     background-repeat: no-repeat;
                     background-size: contain;
-
                 }
                 .html {
-                    width: 10%;
                     background-image: url(../../images/html.svg);
-                    background-repeat: no-repeat;
-                    background-size: contain;
+                }
+                .css {
+                    background-image: url(../../images/cssicon.svg);
+                }
+                .js {
+                    background-image: url(../../images/js.svg);
+                }
+                .react {
+                    background-image: url(../../images/react.svg);
+                }
+                .sass {
+                    background-image: url(../../images/sass.svg);
                 }
             }
             &__right {
                 flex: 1;
                 border: 2px solid black;
+                display: flex;
+                flex-wrap: wrap;
+                height: 100%;
+                div {
+                    margin: 2rem;
+                    width: 10%;
+                    height: 10%;
+                    background-repeat: no-repeat;
+                    background-size: contain;
+                }
+                .linux {
+                    background-image: url(../../images/linux.svg);
+                }
+                .git {
+                    background-image: url(../../images/git.svg);
+                }
+                .docker {
+                    background-image: url(../../images/docker.svg);
+                }
 
             }
         }
