@@ -34,12 +34,10 @@
                 
                 &:hover {
                     background-color: $main-color-1;
-                    animation: scaleit 6s infinite;
+                    transform: scale(1.04);
                     a {
                         color: white;
                     }
-                }
-                &:not(:last-child) {
                 }
                 a {
                     text-decoration: none;
@@ -67,7 +65,7 @@
             background-repeat: no-repeat;
             height: 70%;
             width: 60%;
-            animation: rotate 8s forwards infinite;
+            animation: rotate 11s forwards infinite;
             position: relative;
         }
 

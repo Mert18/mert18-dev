@@ -27,7 +27,12 @@ main {
                         background-repeat: no-repeat;
                         background-size: contain;
                         background-position: center;
+                        transition: ease-in-out .5s;
+                        &:hover {
+                            transform: scale(1.05);
+                        }
                     }
+                    
                     .html {
                         background-image: url(../../images/html.svg);
                     }
@@ -68,6 +73,10 @@ main {
                         background-repeat: no-repeat;
                         background-size: contain;
                         background-position: center;
+                        transition: ease-in-out .5s;
+                        &:hover {
+                            transform: scale(1.05);
+                        }
                     }
                     .linux {
                         background-image: url(../../images/linux.svg);
@@ -94,11 +103,22 @@ main {
             }
         }
     }
+    section {
+        margin-bottom: 5rem;
+    }
     .projects {
         width: 90%;
-        height: 97vh;
-        margin-top: 5vh;
-        border: 2px solid red;
+        text-align: center;
+        &__content {
+            .project {
+                border: 2px solid black;
+                margin-bottom: 2rem;
+                margin-top: 2rem;
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+            }
+        }
     }
     .illustrations {
         width: 90%;

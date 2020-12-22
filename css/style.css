@@ -146,7 +146,7 @@ body {
         transition: all ease-in-out .3s; }
         .header .nav__list div:hover {
           background-color: green;
-          animation: scaleit 6s infinite; }
+          transform: scale(1.04); }
           .header .nav__list div:hover a {
             color: white; }
         .header .nav__list div a {
@@ -171,7 +171,7 @@ body {
       background-repeat: no-repeat;
       height: 70%;
       width: 60%;
-      animation: rotate 8s forwards infinite;
+      animation: rotate 11s forwards infinite;
       position: relative; }
 
 main {
@@ -202,7 +202,10 @@ main {
             width: 20%;
             background-repeat: no-repeat;
             background-size: contain;
-            background-position: center; }
+            background-position: center;
+            transition: ease-in-out .5s; }
+            main .whatiknow__content__left__tech div:hover {
+              transform: scale(1.05); }
           main .whatiknow__content__left__tech .html {
             background-image: url(../../images/html.svg); }
           main .whatiknow__content__left__tech .css {
@@ -230,7 +233,10 @@ main {
             width: 20%;
             background-repeat: no-repeat;
             background-size: contain;
-            background-position: center; }
+            background-position: center;
+            transition: ease-in-out .5s; }
+            main .whatiknow__content__right__tech div:hover {
+              transform: scale(1.05); }
           main .whatiknow__content__right__tech .linux {
             background-image: url(../../images/linux.svg); }
           main .whatiknow__content__right__tech .git {
@@ -243,11 +249,18 @@ main {
             background-image: url(../../images/mysql.svg); }
           main .whatiknow__content__right__tech .graphql {
             background-image: url(../../images/graphql.svg); }
+  main section {
+    margin-bottom: 5rem; }
   main .projects {
     width: 90%;
-    height: 97vh;
-    margin-top: 5vh;
-    border: 2px solid red; }
+    text-align: center; }
+    main .projects__content .project {
+      border: 2px solid black;
+      margin-bottom: 2rem;
+      margin-top: 2rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-around; }
   main .illustrations {
     width: 90%;
     height: 97vh;
