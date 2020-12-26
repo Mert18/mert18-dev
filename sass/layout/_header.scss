@@ -11,7 +11,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: $background-color-1;
+    
     .nav {
         width: 30%;
         height: 80vh;
@@ -37,7 +37,7 @@ body {
                 transition: all ease-in-out .3s;
                 
                 &:hover {
-                    background-color: $main-color-1;
+                    background-color:rgba(83, 201, 83, 0.404);
                     transform: scale(1.04);
                     a {
                         color: white;
@@ -51,7 +51,7 @@ body {
                     display: flex;
                     justify-content: center;
                     align-items: center;
-                    color: $main-color-1;
+                    color: white;
                 }
             }
         }
