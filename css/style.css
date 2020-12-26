@@ -114,6 +114,11 @@ body {
   text-align: center;
   font-weight: 700; }
 
+body {
+  background: url(../../images/bg_green.svg);
+  height: auto;
+  background-repeat: no-repeat; }
+
 .header {
   height: 100vh;
   padding-top: 5vh;
@@ -252,15 +257,30 @@ main {
   main section {
     margin-bottom: 5rem; }
   main .projects {
-    width: 90%;
+    width: 88%;
     text-align: center; }
     main .projects__content .project {
-      border: 2px solid black;
       margin-bottom: 2rem;
       margin-top: 2rem;
       display: flex;
       align-items: center;
-      justify-content: space-around; }
+      justify-content: space-around;
+      transition: ease-in-out .5s; }
+      main .projects__content .project:nth-child(even) {
+        transform: skew(-2deg); }
+      main .projects__content .project:nth-child(odd) {
+        transform: skew(2deg); }
+      main .projects__content .project__image {
+        width: 550px; }
+        main .projects__content .project__image img {
+          max-width: 100%;
+          max-height: 100%;
+          display: block;
+          padding: 2rem; }
+      main .projects__content .project:hover {
+        background: linear-gradient(to right, rgba(7, 182, 7, 0.513), rgba(88, 199, 88, 0.445));
+        cursor: pointer;
+        transform: scale(1.02); }
   main .illustrations {
     width: 90%;
     height: 97vh;

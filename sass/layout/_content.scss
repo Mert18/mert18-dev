@@ -107,17 +107,38 @@ main {
         margin-bottom: 5rem;
     }
     .projects {
-        width: 90%;
+        width: 88%;
         text-align: center;
         &__content {
             .project {
-                border: 2px solid black;
                 margin-bottom: 2rem;
                 margin-top: 2rem;
                 display: flex;
                 align-items: center;
                 justify-content: space-around;
+                transition: ease-in-out .5s;
+                &:nth-child(even) {
+                    transform: skew(-2deg);
+                }
+                &:nth-child(odd) {
+                    transform: skew(2deg);
+                }
+                &__image {
+                    width: 550px;
+                    img {
+                        max-width: 100%;
+                        max-height: 100%;
+                        display:block;
+                        padding: 2rem;
+                    }
+                }
+                &:hover {
+                    background: linear-gradient(to right, rgba(7, 182, 7, 0.513),rgba(88, 199, 88, 0.445));
+                    cursor: pointer;
+                    transform: scale(1.02);
+                }
             }
+            
         }
     }
     .illustrations {
@@ -132,4 +153,6 @@ main {
         margin-top: 5vh;
         border: 2px solid red;
     }
+
+
 }
