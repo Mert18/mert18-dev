@@ -191,68 +191,34 @@ main {
     text-align: center; }
     main .whatiknow__content {
       width: 100%;
-      height: 100%;
-      display: flex; }
+      height: 100%; }
       main .whatiknow__content__left {
         flex: 1;
-        display: flex;
-        flex-wrap: wrap;
-        width: 100%;
-        height: 100%;
-        border: 3px solid white; }
+        display: grid;
+        grid-template-columns: auto auto auto auto; }
         main .whatiknow__content__left div {
-          margin: 0.5rem;
-          width: 15%;
-          height: 20%;
-          background-repeat: no-repeat;
-          background-size: contain;
-          background-position: center;
+          text-align: center;
           transition: ease-in-out .5s;
-          border: 2px solid white; }
+          max-width: 100%;
+          max-height: 100%;
+          display: inline-block;
+          margin: 1rem; }
           main .whatiknow__content__left div:hover {
             transform: scale(1.05); }
-        main .whatiknow__content__left .html {
-          background-image: url(../../images/html.svg); }
-        main .whatiknow__content__left .css {
-          background-image: url(../../images/cssicon.svg); }
-        main .whatiknow__content__left .js {
-          background-image: url(../../images/js.svg); }
-        main .whatiknow__content__left .react {
-          background-image: url(../../images/react.svg); }
-        main .whatiknow__content__left .sass {
-          background-image: url(../../images/sass.svg); }
-        main .whatiknow__content__left .nodejs {
-          background-image: url(../../images/node-js.svg); }
-        main .whatiknow__content__left .nextjs {
-          background-image: url(../../images/nextjs.svg); }
       main .whatiknow__content__right {
         flex: 1;
-        height: 100%;
-        display: flex;
-        flex-wrap: wrap;
-        width: 100%;
-        height: 100%; }
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        margin-top: 2rem; }
         main .whatiknow__content__right div {
-          margin: 0.5rem;
-          width: 15%;
-          background-repeat: no-repeat;
-          background-size: contain;
-          background-position: center;
-          transition: ease-in-out .5s; }
+          text-align: center;
+          transition: ease-in-out .5s;
+          max-width: 100%;
+          max-height: 100%;
+          display: inline-block;
+          margin: 1rem; }
           main .whatiknow__content__right div:hover {
             transform: scale(1.05); }
-        main .whatiknow__content__right .linux {
-          background-image: url(../../images/linux.svg); }
-        main .whatiknow__content__right .git {
-          background-image: url(../../images/git.svg); }
-        main .whatiknow__content__right .docker {
-          background-image: url(../../images/docker.svg); }
-        main .whatiknow__content__right .sql {
-          background-image: url(../../images/sql.svg); }
-        main .whatiknow__content__right .mysql {
-          background-image: url(../../images/mysql.svg); }
-        main .whatiknow__content__right .graphql {
-          background-image: url(../../images/graphql.svg); }
   main section {
     margin-bottom: 5rem; }
   main .projects {
