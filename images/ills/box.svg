@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="450"
+   height="450"
+   viewBox="0 0 119.0625 119.0625"
+   version="1.1"
+   id="svg16"
+   inkscape:version="1.0.1 (1.0.1+r74)"
+   sodipodi:docname="box.svg"
+   inkscape:export-filename="/home/hachiko/inkscape/wings.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96">
+  <defs
+     id="defs10">
+    <style
+       id="style1930">
+      .cls-1 {
+        fill: #3f0001;
+      }
+
+      .cls-2 {
+        fill: #993d1f;
+      }
+
+      .cls-3 {
+        fill: #f5ef99;
+      }
+
+      .cls-4 {
+        fill: none;
+        stroke: #f5ef99;
+        stroke-miterlimit: 10;
+      }
+    </style>
+    <style
+       id="style4840">
+      .cls-1 {
+        fill: #55151e;
+      }
+
+      .cls-2, .cls-3 {
+        fill: #470203;
+      }
+
+      .cls-3 {
+        font-size: 44.59px;
+        font-family: Armwarmer;
+      }
+
+      .cls-4 {
+        letter-spacing: 0em;
+      }
+
+      .cls-5 {
+        letter-spacing: -0.02em;
+      }
+    </style>
+    <style
+       id="style5074">
+      .cls-1 {
+        fill: #6a3256;
+      }
+
+      .cls-2 {
+        fill: #963256;
+      }
+
+      .cls-3 {
+        fill: #964c56;
+      }
+    </style>
+    <style
+       id="style5411">
+      .cls-1 {
+        fill: #e8aa26;
+      }
+
+      .cls-2 {
+        fill: #baa6e7;
+      }
+
+      .cls-3 {
+        fill: #ffea9e;
+      }
+
+      .cls-4 {
+        fill: #c8ea9a;
+      }
+
+      .cls-5 {
+        fill: #ff889a;
+      }
+    </style>
+    <style
+       id="style5545">
+      .cls-1 {
+        fill: #451d00;
+      }
+
+      .cls-2 {
+        fill: #8b7300;
+      }
+    </style>
+    <style
+       id="style5713">.cls-1{fill:#a63e60;}.cls-2{fill:#823e60;}.cls-3{fill:#730010;}.cls-4{fill:#fff;opacity:0.3;}</style>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#dfd2d2"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.4"
+     inkscape:cx="202.37516"
+     inkscape:cy="234.64844"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     inkscape:showpageshadow="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1018"
+     inkscape:window-x="0"
+     inkscape:window-y="32"
+     inkscape:window-maximized="1"
+     inkscape:pagecheckerboard="false"
+     units="px"
+     width="400mm" />
+  <metadata
+     id="metadata13">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <polygon
+       class="cls-1"
+       points="249.95,81.98 395.43,165.99 249.98,250.07 104.98,165.64 "
+       id="polygon5717"
+       transform="matrix(0.34578999,0,0,0.34578999,-26.916247,-26.916247)" />
+    <polygon
+       class="cls-2"
+       points="104.57,334.07 249.95,418.02 249.98,250.07 104.98,165.64 "
+       id="polygon5719"
+       transform="matrix(0.34578999,0,0,0.34578999,-26.916247,-26.916247)" />
+    <polyline
+       class="cls-3"
+       points="249.95 418.02 395.43 334.01 395.43 165.99 249.98 250.07"
+       id="polyline5721"
+       transform="matrix(0.34578999,0,0,0.34578999,-26.916247,-26.916247)" />
+    <g
+       id="g5791">
+      <polygon
+         class="cls-4"
+         points="266.12,296.67 379.26,231.33 379.26,193.99 266.12,259.33 "
+         id="polygon5723"
+         transform="matrix(0.34578999,0,0,0.34578999,-26.916247,-26.916247)"
+         style="stroke-width:0;stroke-miterlimit:10;stroke-dasharray:none" />
+      <polygon
+         class="cls-4"
+         points="266.12,343.27 379.26,277.93 379.26,240.59 266.12,305.93 "
+         id="polygon5725"
+         transform="matrix(0.34578999,0,0,0.34578999,-26.916247,-26.916247)"
+         style="stroke-width:0;stroke-miterlimit:10;stroke-dasharray:none" />
+      <polygon
+         class="cls-4"
+         points="266.12,389.89 379.26,324.55 379.26,287.21 266.12,352.55 "
+         id="polygon5727"
+         transform="matrix(0.34578999,0,0,0.34578999,-26.916247,-26.916247)"
+         style="stroke-width:0;stroke-miterlimit:10;stroke-dasharray:none" />
+    </g>
+    <g
+       id="g5796">
+      <polyline
+         class="cls-4"
+         points="233.79 259.33 201.46 240.66 201.46 371.35 233.79 390.02 233.79 260.28"
+         id="polyline5729"
+         transform="matrix(0.34578999,0,0,0.34578999,-26.916247,-26.916247)"
+         style="stroke-width:0;stroke-miterlimit:10;stroke-dasharray:none" />
+      <polyline
+         class="cls-4"
+         points="193.43 236.43 161.1 217.76 161.1 348.44 193.43 367.11 193.43 237.37"
+         id="polyline5731"
+         transform="matrix(0.34578999,0,0,0.34578999,-26.916247,-26.916247)"
+         style="stroke-width:0;stroke-miterlimit:10;stroke-dasharray:none" />
+      <polyline
+         class="cls-4"
+         points="153.07 212.98 120.74 194.31 120.74 324.99 153.07 343.66 153.07 213.92"
+         id="polyline5733"
+         transform="matrix(0.34578999,0,0,0.34578999,-26.765908,-27.016473)"
+         style="stroke-width:0;stroke-miterlimit:10;stroke-dasharray:none" />
+    </g>
+    <g
+       id="g5786">
+      <polygon
+         class="cls-4"
+         points="266.12,222 266.12,109.98 249.95,100.65 233.79,109.98 233.79,222 249.95,231.33 "
+         id="polygon5735"
+         transform="matrix(0.34578999,0,0,0.34578999,-26.916247,-26.916247)"
+         style="stroke-width:0;stroke-miterlimit:10;stroke-dasharray:none" />
+      <polygon
+         class="cls-4"
+         points="306.52,198.66 306.52,133.32 274.2,114.65 274.2,217.33 "
+         id="polygon5737"
+         transform="matrix(0.34578999,0,0,0.34578999,-26.916247,-26.916247)"
+         style="stroke-width:0;stroke-miterlimit:10;stroke-dasharray:none" />
+      <polygon
+         class="cls-4"
+         points="346.93,175.32 346.93,156.65 314.61,137.99 314.61,193.99 "
+         id="polygon5739"
+         transform="matrix(0.34578999,0,0,0.34578999,-26.916247,-26.916247)"
+         style="stroke-width:0;stroke-miterlimit:10;stroke-dasharray:none" />
+      <polygon
+         class="cls-4"
+         points="193.38,198.66 193.38,133.32 225.71,114.65 225.71,217.33 "
+         id="polygon5741"
+         transform="matrix(0.34578999,0,0,0.34578999,-26.916247,-26.916247)"
+         style="stroke-width:0;stroke-miterlimit:10;stroke-dasharray:none" />
+      <polygon
+         class="cls-4"
+         points="152.97,175.32 152.97,156.65 185.3,137.99 185.41,193.93 "
+         id="polygon5743"
+         transform="matrix(0.34578999,0,0,0.34578999,-26.916247,-26.916247)"
+         style="stroke-width:0;stroke-miterlimit:10;stroke-dasharray:none" />
+    </g>
+  </g>
+</svg>

@@ -149,8 +149,8 @@ body {
         align-items: center;
         transition: all ease-in-out .3s; }
         .header .nav__list div:hover {
-          background-color: rgba(83, 201, 83, 0.404);
-          transform: scale(1.04); }
+          background-color: rgba(52, 204, 128, 0);
+          transform: scale(1.07); }
           .header .nav__list div:hover a {
             color: white; }
         .header .nav__list div a {
@@ -177,6 +177,12 @@ body {
       width: 60%;
       animation: rotate 11s forwards infinite;
       position: relative; }
+
+::-webkit-scrollbar {
+  display: none; }
+
+html {
+  scroll-behavior: smooth; }
 
 main {
   width: 100%;
@@ -231,10 +237,6 @@ main {
       align-items: center;
       justify-content: space-around;
       transition: ease-in-out .5s; }
-      main .projects__content .project:nth-child(even) {
-        transform: skew(-2deg); }
-      main .projects__content .project:nth-child(odd) {
-        transform: skew(2deg); }
       main .projects__content .project__image {
         width: 550px; }
         main .projects__content .project__image img {
@@ -248,14 +250,48 @@ main {
         transform: scale(1.02); }
   main .illustrations {
     width: 90%;
-    height: 97vh;
-    margin-top: 5vh;
-    border: 2px solid red; }
+    margin: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; }
+    main .illustrations .ill {
+      margin: 3rem;
+      transition: ease-in-out .7s;
+      border-radius: 3rem; }
+      main .illustrations .ill:hover {
+        background-color: rgba(255, 255, 255, 0.287);
+        cursor: pointer; }
   main .contact {
     width: 90%;
     height: 97vh;
-    margin-top: 5vh;
-    border: 2px solid red; }
+    margin-top: 5vh; }
+    main .contact form {
+      width: 50%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column; }
+      main .contact form input {
+        width: 14rem;
+        height: 3rem;
+        border-radius: 2rem;
+        border: none;
+        font-size: 1.4rem;
+        text-align: center;
+        margin-bottom: 2rem; }
+      main .contact form textarea {
+        border: none;
+        text-align: center;
+        border-radius: 0.5rem;
+        font-size: 1.4rem;
+        height: 10rem;
+        margin-bottom: 2rem; }
+      main .contact form button {
+        width: 8rem;
+        height: 3rem;
+        background-color: rgba(25, 172, 25, 0.459); }
 
 button {
   background-color: black;

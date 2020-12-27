@@ -1,3 +1,11 @@
+::-webkit-scrollbar {
+    display: none;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
 main {
     width: 100%;
     display: flex;
@@ -61,12 +69,6 @@ main {
                 align-items: center;
                 justify-content: space-around;
                 transition: ease-in-out .5s;
-                &:nth-child(even) {
-                    transform: skew(-2deg);
-                }
-                &:nth-child(odd) {
-                    transform: skew(2deg);
-                }
                 &__image {
                     width: 550px;
                     img {
@@ -87,15 +89,55 @@ main {
     }
     .illustrations {
         width: 90%;
-        height: 97vh;
-        margin-top: 5vh;
-        border: 2px solid red;
+        margin:5vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        .ill {
+            margin: 3rem;
+            transition: ease-in-out .7s;
+            border-radius: 3rem;
+            &:hover {
+                background-color: rgba(255, 255, 255, 0.287);
+                cursor: pointer;
+            }
+        }
     }
     .contact {
         width: 90%;
         height: 97vh;
         margin-top: 5vh;
-        border: 2px solid red;
+        form {
+            width: 50%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            input {
+                width: 14rem;
+                height: 3rem;
+                border-radius: 2rem;
+                border: none;
+                font-size: 1.4rem;
+                text-align: center;
+                margin-bottom: 2rem;
+            }
+            textarea {
+                border: none;
+                text-align: center;
+                border-radius: 0.5rem;
+                font-size: 1.4rem;
+                height: 10rem;
+                margin-bottom: 2rem;
+            }
+            button {
+                width: 8rem;
+                height: 3rem;
+                background-color: rgba(25, 172, 25, 0.459);
+            }
+        }
     }
 
 
