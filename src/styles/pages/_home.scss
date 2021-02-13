@@ -7,6 +7,10 @@
     }
     &__main {
         flex: 5;
+        &__topImage {
+            padding: 3rem;
+            background-color: $secondary-color;
+        }
     }
 }
 
