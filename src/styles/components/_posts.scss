@@ -1,0 +1,13 @@
+
+.post {
+    background-color: $primary-color;
+    color: $secondary-color;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    border-radius: 1rem;
+    width: 65%;
+    justify-content: space-around;
+    margin: 1rem;
+    height: 22vh;
+}
