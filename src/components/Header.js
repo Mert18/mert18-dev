@@ -1,8 +1,9 @@
 import React from 'react';
 import '../styles/main.scss';
 
-import pp from '../assets/pp.svg'
-import linkedin from '../assets/link.png'
+import pp from '../assets/pp.svg';
+import linkedin from '../assets/link.png';
+import github from '../assets/git.png'
 
 const Header = () => {
     return (
@@ -24,7 +25,12 @@ const Header = () => {
                 <a href="/">Resources</a>
             </div>
             <div className="header__links">
-                <img src={linkedin} alt="linkedin" width="50px" />
+                <a className="header__links__linkedin" href="https://www.linkedin.com/in/mert-u-8248ab135/" target="_blank" rel="noreferrer" >
+                    <img src={linkedin} alt="linkedin" width="50px" />
+                </a>
+                <a className="header__links__github" href="https://github.com/Mert18" target="_blank" rel="noreferrer" >
+                    <img src={github} alt="github" width="50px" />
+                </a>
             </div>
         </div>
     )

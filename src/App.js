@@ -2,7 +2,7 @@ import React from 'react';
 import './styles/main.scss'
 import Header from './components/Header.js'
 import Home from './components/Home.js'
-import topImage from './assets/topImage.svg'
+import TopImage from './components/TopImage'
 
 const App = () => {
     return (
@@ -12,7 +12,7 @@ const App = () => {
             </header>
             <main className="container__main">
                 <div className="container__main__topImage">
-                    <img src={topImage} alt="top bg" />
+                    <TopImage />
                 </div>
                 <Home />
             </main>
