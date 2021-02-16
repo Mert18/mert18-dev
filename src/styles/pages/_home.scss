@@ -23,12 +23,11 @@
 }
 
 .mysvg {
-    border-radius: 3rem;
     path {
-        transition: all 4s;
+        transition: all 3s;
     }
     path:hover {
         fill: $secondary-color;
-        transition: all .3s;
+        transition: all 1s;
     }
 }

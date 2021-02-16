@@ -11,7 +11,7 @@ const TopImage = () => {
     useEffect(() => {
         const interval = setInterval(() => {
             setColor(randomColor())
-        }, 5000);
+        }, 3000);
         return () => clearInterval(interval);
     }, []);
 

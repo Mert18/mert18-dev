@@ -5,6 +5,8 @@ import pp from '../assets/pp.svg';
 import linkedin from '../assets/link.png';
 import github from '../assets/git.png'
 
+import { Link } from "react-router-dom";
+
 const Header = () => {
     return (
         <div className="header">
@@ -17,13 +19,14 @@ const Header = () => {
                     <h2>Front End Developer</h2>
                 </div>
             </div>
-
             <div className="header__navigation">
-                <a href="/">Home</a>
-                <a href="/">Library</a>
-                <a href="/">Projects</a>
-                <a href="/">Resources</a>
+                <Link to="/">Home</Link>
+                <Link to="/about">About</Link>
+                <Link to="/projects">Projects</Link>
             </div>
+
+
+
             <div className="header__links">
                 <a className="header__links__linkedin" href="https://www.linkedin.com/in/mert-u-8248ab135/" target="_blank" rel="noreferrer" >
                     <img src={linkedin} alt="linkedin" width="50px" />
@@ -34,6 +37,7 @@ const Header = () => {
             </div>
         </div>
     )
+
 }
 
 export default Header
