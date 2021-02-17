@@ -9,10 +9,6 @@ const Home = () => {
             <div className="container__main__topImage">
                 <TopImage />
             </div>
-            <Post />
-            <Post />
-            <Post />
-            <Post />
         </div>
     )
 }

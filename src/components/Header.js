@@ -5,7 +5,7 @@ import pp from '../assets/pp.svg';
 import linkedin from '../assets/link.png';
 import github from '../assets/git.png'
 
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 const Header = () => {
     return (
@@ -20,19 +20,19 @@ const Header = () => {
                 </div>
             </div>
             <div className="header__navigation">
-                <Link to="/">Home</Link>
-                <Link to="/about">About</Link>
-                <Link to="/projects">Projects</Link>
+                <NavLink exact to="/" activeClassName="selected">Home</NavLink>
+                <NavLink to="/about" activeClassName="selected">About</NavLink>
+                <NavLink to="/projects" activeClassName="selected">Projects</NavLink>
             </div>
 
 
 
             <div className="header__links">
                 <a className="header__links__linkedin" href="https://www.linkedin.com/in/mert-u-8248ab135/" target="_blank" rel="noreferrer" >
-                    <img src={linkedin} alt="linkedin" width="50px" />
+                    <img src={linkedin} alt="linkedin" width="40px" />
                 </a>
                 <a className="header__links__github" href="https://github.com/Mert18" target="_blank" rel="noreferrer" >
-                    <img src={github} alt="github" width="50px" />
+                    <img src={github} alt="github" width="40px" />
                 </a>
             </div>
         </div>
