@@ -4,7 +4,7 @@ body {
 }
 .header {
     padding: .5rem;
-    background: url(../../assets/tree.png);
+    background: url(../../assets/other/tree.png);
     background-position: bottom;
     background-size: cover;
     &__profile {
@@ -47,10 +47,9 @@ body {
 
     &__links {
         position: absolute;
-        top: 0rem;
-        left: 0rem;
-        padding: 2rem;
-        * {
+        top: 1rem;
+        left: 1rem;
+        &__linkedin {
             margin-right: 1rem;
         }
     }

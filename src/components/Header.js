@@ -1,11 +1,12 @@
 import React from 'react';
 import '../styles/main.scss';
 
-import pp from '../assets/pp.svg';
-import linkedin from '../assets/link.png';
-import github from '../assets/git.png'
+import pp from '../assets/other/pp.svg';
+import linkedin from '../assets/other/link.png';
+import github from '../assets/other/git.png'
 
 import { NavLink } from "react-router-dom";
+
 
 const Header = () => {
     return (
@@ -30,7 +31,7 @@ const Header = () => {
 
 
             <div className="header__links">
-                <a className="header__links__linkedin" href="https://www.linkedin.com/in/mert-u-8248ab135/" target="_blank" rel="noreferrer" >
+                <a className="header__links__linkedin" href="https://www.linkedin.com/in/mert-u-8248ab135/" target="_blank" rel="noreferrer">
                     <img src={linkedin} alt="linkedin" width="40px" />
                 </a>
                 <a className="header__links__github" href="https://github.com/Mert18" target="_blank" rel="noreferrer" >
