@@ -1,0 +1,18 @@
+
+.about {
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+
+    &__first {
+        width: 90%;
+        border: 2px solid red;
+        height: 60vh;
+        margin-bottom: 3rem;
+        margin-top: 3rem;
+        padding: 2rem;
+        line-height: 1.3em;
+    }
+}

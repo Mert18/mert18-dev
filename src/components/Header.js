@@ -16,6 +16,8 @@ const Header = () => {
                 </div>
                 <div className="header__profile__text">
                     <h1>Mert Uygur</h1>
+                    <h2>Computer Engineering Student</h2>
+                    <h2>Ankara, Turkey</h2>
                     <h2>Front End Developer</h2>
                 </div>
             </div>
