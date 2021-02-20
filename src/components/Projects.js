@@ -6,7 +6,6 @@ const Projects = () => {
         <div className="projects">
             <section className="projects__web">
                 <div className="projects__web__text">
-                    <h1>projects</h1>
                 </div>
                 <div className="projects__web__projects">
                     <Project />

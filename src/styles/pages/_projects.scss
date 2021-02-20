@@ -4,10 +4,33 @@
     display: flex;
     justify-content: start;
     align-items: center;
-    padding: 3rem;
     font-size: 2rem;
     font-family: 'Josefin Sans', sans-serif;
+    &__web {
+        width: 100%;
+        &__projects {
+            display: flex;
+            flex-direction: column;
+            border: 2px solid black;
+            align-items: center;
+            width: 100%;
+        }
+    }
+}
+
+.project {
+    width: 100%;
+    padding: 6em;
+    display: flex;
+    align-items: center;
+    background-color: $secondary-color;
     &__text {
-        padding: 1rem;
+        margin-left: 2rem;
+        &__title {
+
+        }
+        &__paragraph {
+
+        }
     }
 }
