@@ -25,12 +25,10 @@
     align-items: center;
     background-color: $secondary-color;
     &__text {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
         margin-left: 2rem;
-        &__title {
-
-        }
-        &__paragraph {
-
-        }
+        height: 50%;
     }
 }
