@@ -6,12 +6,12 @@
     align-items: center;
     font-size: 2rem;
     font-family: 'Josefin Sans', sans-serif;
+    overflow: hidden;
     &__web {
         width: 100%;
         &__projects {
             display: flex;
             flex-direction: column;
-            border: 2px solid black;
             align-items: center;
             width: 100%;
         }
@@ -19,16 +19,68 @@
 }
 
 .project {
-    width: 100%;
+    width: 90%;
+    height: 100%;
     padding: 6em;
     display: flex;
     align-items: center;
     background-color: $secondary-color;
+    transition: all .5s;
+    position: relative;
+    overflow: hidden;
+    z-index: 3;
+    margin: 3rem;
+    border-radius: 2rem;
+    h1 {
+        transition: all .5s;
+
+    }
+    h2 {
+        transition: all .5s;
+
+    }
+    .bgimg {
+        img {
+            position:absolute;
+            left: 0;
+            top: 0;
+            max-height: 100%;
+            z-index: -999;
+            overflow: hidden;
+            filter: grayscale(1);
+            transition: all .5s;
+
+        }
+    }
+
+    &:hover {
+        h1 {
+            font-size: 120%;
+            transition: all .5s;
+
+        }
+        h2 {
+            font-size: 120%;
+            transition: all .5s;
+
+        }
+        cursor: pointer;
+        .bgimg {
+            img {
+                filter: grayscale(0);
+                transition: all .5s;
+            }
+        }
+    }
     &__text {
+        position: relative;
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
         margin-left: 2rem;
         height: 50%;
+        color: $secondary-color;
+        z-index: 2;
+        overflow: hidden;
     }
 }

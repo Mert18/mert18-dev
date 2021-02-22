@@ -4,7 +4,7 @@ import art from '../assets/other/pp.svg'
 const ArtPiece = () => {
     return (
         <div className="artpiece">
-            <img src={art} alt="art here" width="512px" />
+            <img src={art} alt="art here" width="512px" draggable="false" />
         </div>
     )
 }

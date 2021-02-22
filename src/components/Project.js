@@ -3,18 +3,21 @@ import titleimg from '../assets/other/pp.svg'
 
 
 
-const Project = () => {
+const Project = ({ title, text, image, background }) => {
     return (
         <div className="project">
+            <div className="bgimg">
+                <img src={background} alt="bgimg" />
+            </div>
             <div className="project__image">
-                <img src={titleimg} alt="titleimg" width="150px" />
+                <img src={image} alt="titleimg" width="150px" draggable="false" />
             </div>
             <div className="project__text">
                 <div className="project__text__title">
-                    <h2>hello world</h2>
+                    <h2>{title}</h2>
                 </div>
                 <div className="project__text__paragraph">
-                    <p>hello world but from another world hello world but i know</p>
+                    <p>{text}</p>
                 </div>
             </div>
         </div>

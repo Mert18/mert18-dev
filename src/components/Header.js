@@ -13,7 +13,7 @@ const Header = () => {
         <div className="header">
             <div className="header__profile">
                 <div className="header__profile__img">
-                    <img src={pp} alt="profile pic" width="150px" />
+                    <img src={pp} alt="profile pic" width="150px" draggable="false" />
                 </div>
                 <div className="header__profile__text">
                     <h1>Mert Uygur</h1>

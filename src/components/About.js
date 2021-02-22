@@ -19,17 +19,17 @@ const About = () => {
                         <h1>what i know?</h1>
                     </div>
                     <div className="about__whatiknow__web__tech">
-                        <img src={reactjs} alt="react" width="150px" />
-                        <img src={nodejs} alt="nodejs" width="150px" />
-                        <img src={sass} alt="sass" width="150px" />
-                        <img src={linux} alt="linux" width="150px" />
+                        <img src={reactjs} alt="react" width="150px" draggable="false" />
+                        <img src={nodejs} alt="nodejs" width="150px" draggable="false" />
+                        <img src={sass} alt="sass" width="150px" draggable="false" />
+                        <img src={linux} alt="linux" width="150px" draggable="false" />
                     </div>
                     <div className="about__whatiknow__web__other">
-                        <img src={ill} alt="ill" width="150px" />
+                        <img src={ill} alt="ill" width="150px" draggable="false" />
                     </div>
                 </div>
                 <div className="about__whatiknow__illone">
-                    <img src={egg} alt="egg" />
+                    <img src={egg} alt="egg" draggable="false" />
                 </div>
             </section>
         </div>
