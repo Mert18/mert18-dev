@@ -1,14 +1,10 @@
 import React from 'react';
-import Post from './Post'
+import Posts from './Posts'
 
 const Blog = () => {
     return (
         <div className="blog">
-            <Post />
-            <Post />
-            <Post />
-            <Post />
-            <Post />
+            <Posts />
         </div>
     )
 }

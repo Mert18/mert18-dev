@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+.post {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    justify-content: space-around;
+    border-radius: 2rem;
+    padding: 4rem;
+    margin: 2rem;
+    background-color: $base-color;
+    * {
+        margin-bottom: 1em;
+    }
+    font-family: 'Lato', sans-serif;
+}
+
+.posts {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,10 +1,9 @@
 import React from 'react';
-import art from '../assets/other/pp.svg'
 
-const ArtPiece = () => {
+const ArtPiece = ({ image }) => {
     return (
         <div className="artpiece">
-            <img src={art} alt="art here" width="512px" draggable="false" />
+            <img src={image} alt="art here" width="512px" draggable="false" />
         </div>
     )
 }
