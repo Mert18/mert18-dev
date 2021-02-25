@@ -1,5 +1,4 @@
 import React from 'react';
-import Post from './Post.js'
 import TopImage from './TopImage'
 
 

@@ -8,7 +8,6 @@ import sass from '../assets/stack/sass.png';
 
 import ill from '../assets/stack/ill.png'
 
-import egg from '../assets/other/egg.png'
 
 const About = () => {
     return (
