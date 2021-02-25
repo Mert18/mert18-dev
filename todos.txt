@@ -1,4 +1,0 @@
-github link
-font style
-profile pic
-react-routes
