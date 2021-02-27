@@ -1,5 +1,5 @@
 import axios from 'axios';
-const url = 'https://127.0.0.1/posts';
+const url = '/posts';
 
 export const fetchPosts = () => axios.get(url);
 
