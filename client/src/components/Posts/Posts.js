@@ -8,12 +8,10 @@ const Posts = () => {
 
     console.log(posts);
     return (
-        <div>
-            <Post />
-            <Post />
-            <Post />
-            <Post />
-            <Post />
+        <div className="posts">
+            {posts.map((post) => (
+                <Post post={post} />
+            ))}
         </div>
     )
 }

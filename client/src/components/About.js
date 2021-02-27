@@ -15,7 +15,7 @@ const About = () => {
             <section className="about__whatiknow">
                 <div className="about__whatiknow__web">
                     <div className="about__whatiknow__web__text">
-                        <h1>what do you know?</h1>
+                        <h1>what is your stack?</h1>
                     </div>
                     <div className="about__whatiknow__web__tech">
                         <img src={reactjs} alt="react" width="150px" draggable="false" />

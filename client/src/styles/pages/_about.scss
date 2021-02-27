@@ -1,32 +1,57 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&display=swap');
 
 .about {
     display: flex;
-    justify-content: start;
+    justify-content: center;
     align-items: center;
     padding: 2rem;
     font-size: 2rem;
-    font-family: 'Lato', sans-serif;
-
+    font-family: 'DotGothic16', sans-serif;
+    color: rgb(77, 9, 77);
 
     &__whatiknow {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+
         &__web {
             display: flex;
             flex-direction: column;
+            align-items: center;
             padding: 1rem;
             justify-content: start;
             flex: 1;
+            &__text {
+                transition: all .8s;
+                &:hover {
+                    transition: all .8s;
+                    transform: scale(1.1);
+                }
+            }
             &__tech {
                 padding: 2rem;
                 img {
+                    transition: all .5s;
                     padding: 1rem;
+                    user-select: none;
                 }
+                img:hover {
+                    transition: all .5s;
+                    transform: scale(1.2);
+                }
+                
             }
             &__other {
                 padding: 2rem;
                 img {
                     padding: 1rem;
+                    transition: all .5s;
+                    user-select: none;
+                }
+                img:hover {
+                    transition: all .5s;
+                    transform: scale(1.2);
                 }
             }
         }

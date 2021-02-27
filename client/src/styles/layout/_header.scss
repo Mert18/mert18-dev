@@ -13,6 +13,11 @@ body {
         padding: 2rem;
         &__img {
             margin-right: 2rem;
+            transition: all .5s;
+            &:hover {
+                transition: all .5s;
+                transform: scale(1.2);
+            }
         }
         &__text {
             display: flex;
@@ -22,12 +27,21 @@ body {
             font-size: .7rem;
             color: $secondary-color;
             line-height: 2.4em;
+            user-select: none;
+            * {
+                transition: all .5s;
+            }
+            *:hover {
+                transition: all .5s;
+                transform: scale(1.1);
+            }
         }
     }
     &__navigation {
         display: flex;
         justify-content: center;
         width: 100%;
+        user-select: none;
         a {
             margin: .5rem;
             padding: .9rem;
@@ -41,6 +55,10 @@ body {
             font-weight: 600;
         }
         a:hover {
+            color: white;
+            transform: scale(1.08);
+        }
+        .selected {
             color: white;
         }
     }
