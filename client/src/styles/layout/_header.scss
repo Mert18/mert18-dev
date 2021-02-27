@@ -12,7 +12,7 @@ body {
         justify-content: center;
         padding: 2rem;
         &__img {
-            margin-right: 2rem;
+            margin-right: 1rem;
             transition: all .5s;
             &:hover {
                 transition: all .5s;
@@ -23,7 +23,7 @@ body {
             display: flex;
             flex-direction: column;
             justify-content: center;
-            padding-top: 1rem;
+            padding: 0rem 2rem;
             font-size: .7rem;
             color: $secondary-color;
             line-height: 2.4em;
