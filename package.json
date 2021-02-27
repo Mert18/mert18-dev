@@ -3,9 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {
-    "start": "concurrently \"cd server && node index.js\" \"cd client && npm start\""
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Mert18/mert18-dev.git"
@@ -17,7 +15,5 @@
     "url": "https://github.com/Mert18/mert18-dev/issues"
   },
   "homepage": "https://github.com/Mert18/mert18-dev#readme",
-  "dependencies": {
-    "concurrently": "^6.0.0"
-  }
+  "dependencies": {}
 }
