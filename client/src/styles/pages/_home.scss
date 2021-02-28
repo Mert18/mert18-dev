@@ -1,11 +1,8 @@
 .container {
-    width: 100%;
     &__main {
         &__topImage {
-            padding: 2rem;
             display: flex;
             justify-content: center;
-            background-color: $secondary-color;
         }
     }
 }
@@ -22,6 +19,6 @@
     }
     path:hover {
         fill: $secondary-color;
-        transition: all 1s;
+        transition: all .4s;
     }
 }

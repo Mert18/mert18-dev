@@ -3,13 +3,20 @@
 .post {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
-    width: 70%;
-    padding: 3em;
+    width: 67%;
+    padding: 3.5em;
     margin-top: 4rem;
-    justify-content: space-around;
     color: $base-color;
     background-color: rgb(59, 9, 59);
+    transition: all 1s;
+
+    &:hover {
+        transition: all 1s;
+        background-color: purple;
+        cursor: pointer;
+    }
     * {
         margin-bottom: 1em;
     }

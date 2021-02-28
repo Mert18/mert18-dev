@@ -1,16 +1,18 @@
-import React from 'react';
+import React, { useState } from 'react';
 
-const ArtPiece = ({ image }) => {
+
+const ArtPiece = ({ images }) => {
+
+    const [image, setImage] = useState(images[0])
+
+    console.log(images)
+
     return (
-        <div className="artpiece">
+        <div className="artpiece" >
             <div className="artpiece__img">
-                <img src={image} alt="art here" width="512px" draggable="false" />
+                <img src={image} alt="art one" width="512px" draggable="false" />
             </div>
-
-            <div className="artpiece__text">
-                the wasp
-            </div>
-        </div>
+        </div >
     )
 }
 
