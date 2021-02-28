@@ -11,7 +11,7 @@ const Post = ({ post }) => {
                 <h1>{post.title}</h1>
             </div>
             <div className="post__text">
-                <h3>{post.message}t</h3>
+                <h3>{post.message}</h3>
             </div>
             <div className="post__footer">
                 <p><Moment>{dateToFormat}</Moment></p>

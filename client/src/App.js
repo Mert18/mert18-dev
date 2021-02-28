@@ -38,7 +38,7 @@ const App = () => {
                         <Route path="/about" component={About} />
                         <Route path="/projects" component={Projects} />
                         <Route path="/art" component={Art} />
-                        <Route path="/blog" component={Blog} />
+                        <Route path="/posts" component={Blog} />
                     </Switch>
                 </main>
             </div>
