@@ -9,19 +9,16 @@
     &__text {
         text-align: center;
         transition: all .8s;
-        margin-top: 3em;
-        &:hover {
-            transition: all .8s;
-            transform: scale(1.1);
-        }
     }
 
     &__projects {
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
         width: 100%;
+
+        .col-2 {
+            display: flex;
+        }
     }
 }
 
@@ -29,15 +26,12 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    margin-top: 3em;
     color: $secondary-color;
-    background-color: rgb(54, 16, 54);
-    padding: 3em;
-    width: 70%;
-    height: 20em;
-    margin-bottom: 3em;
+    background-color: #5C2041;
     position: relative;
+    color: $secondary-color;
+    height: 20rem;
+
     &__text {
         font-size: 1.3rem;
         display: flex;
@@ -51,15 +45,7 @@
 
         &__paragraph {
             transition: all 1.5s;
-        }
-    }
-
-    &:hover {
-        cursor: pointer;
-
-        .project__text__paragraph {
-            transition: all 1.7s;
-            font-size: 2.25rem
+            font-size: 1.7rem;
         }
     }
 }
