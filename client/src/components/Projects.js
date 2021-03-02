@@ -16,6 +16,9 @@ const Projects = () => {
                     <div className="col-2">
                         <Project title="Virtual Library" text="A social media platform for book lovers." />
                         <Project title="Virtual Library" text="A social media platform for book lovers." />
+                        <Project title="Virtual Library" text="A social media platform for book lovers." />
+                        <Project title="Virtual Library" text="A social media platform for book lovers." />
+                        <Project title="Virtual Library" text="A social media platform for book lovers." />
                     </div>
                 </div>
             </div>

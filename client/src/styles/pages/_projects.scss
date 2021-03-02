@@ -6,18 +6,27 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    border: 2px solid black;
+    padding: 2em;
     &__text {
         text-align: center;
         transition: all .8s;
+        margin-bottom: 2rem;
+        &:hover {
+            transition: all .6s;
+            font-size: 1.2rem;
+        }
     }
 
     &__projects {
         display: flex;
+        justify-content: center;
+        align-items: center;
         flex-direction: column;
-        width: 100%;
-
         .col-2 {
             display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
         }
     }
 }
@@ -26,12 +35,15 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    color: $secondary-color;
     background-color: #5C2041;
     position: relative;
     color: $secondary-color;
     height: 20rem;
-
+    padding: 2rem;
+    margin: .5rem;
+    &:hover {
+        cursor: pointer;
+    }
     &__text {
         font-size: 1.3rem;
         display: flex;
@@ -44,8 +56,13 @@
         }
 
         &__paragraph {
-            transition: all 1.5s;
+            transition: all 1.1s;
             font-size: 1.7rem;
+        }
+    }
+    &:hover {
+        .project__text__paragraph {
+            font-size: 1.9rem;
         }
     }
 }
