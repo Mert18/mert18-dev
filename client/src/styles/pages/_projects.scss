@@ -27,6 +27,9 @@
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
+            a {
+                text-decoration: none;
+            }
         }
     }
 }
@@ -38,31 +41,32 @@
     background-color: #5C2041;
     position: relative;
     color: $secondary-color;
+    width: 50vw;
     height: 20rem;
-    padding: 2rem;
-    margin: .5rem;
+    padding: 4em;
+    margin: .9rem;
     &:hover {
         cursor: pointer;
     }
     &__text {
-        font-size: 1.3rem;
+        font-size: 1.1rem;
         display: flex;
 
         &__title {
             position: absolute;
             top: 0;
             left: 0;
-            padding: 2rem;
+            padding: 3rem;
         }
 
         &__paragraph {
             transition: all 1.1s;
-            font-size: 1.7rem;
+            font-size: 1.3rem;
         }
     }
     &:hover {
         .project__text__paragraph {
-            font-size: 1.9rem;
+            font-size: 1.35rem;
         }
     }
 }

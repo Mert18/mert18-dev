@@ -1,7 +1,7 @@
 import React from 'react';
 import '../styles/main.scss';
 
-import pp from '../assets/other/pp.svg';
+import pp from '../assets/other/pp.png';
 import linkedin from '../assets/other/link.png';
 import github from '../assets/other/git.png'
 
