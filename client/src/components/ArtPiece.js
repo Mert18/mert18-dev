@@ -1,11 +1,7 @@
 import React, { useState } from 'react';
 
 
-const ArtPiece = ({ images }) => {
-
-    const [image, setImage] = useState(images[0])
-
-    console.log(images)
+const ArtPiece = ({ image }) => {
 
     return (
         <div className="artpiece" >

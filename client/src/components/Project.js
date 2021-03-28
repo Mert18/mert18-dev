@@ -5,7 +5,6 @@ import React from 'react';
 const Project = ({ title, text }) => {
     return (
         <div className="project">
-
             <div className="project__text">
                 <div className="project__text__title">
                     <h2>{title}</h2>

@@ -1,72 +1,48 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&display=swap');
 
-.projects{
-    font-family: 'Josefin Sans', sans-serif;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    border: 2px solid black;
-    padding: 2em;
-    &__text {
-        text-align: center;
-        transition: all .8s;
-        margin-bottom: 2rem;
-        &:hover {
-            transition: all .6s;
-            font-size: 1.2rem;
-        }
-    }
 
-    &__projects {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        .col-2 {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            a {
-                text-decoration: none;
+.projects {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    margin-top: 2rem;
+    a {
+        text-decoration: none;
+    }
+    &__segment {
+        grid-column: 2 / 10;
+        margin: 1rem 0 1rem 0;
+        &__title {
+            border-bottom: 2px solid black;
+            margin-bottom: 1rem;
+            h2 {
+                font-size: 2rem;
             }
+        }
+        &__projects {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+            margin-left: 4rem;
         }
     }
 }
 
 .project {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background-color: #5C2041;
-    position: relative;
-    color: $secondary-color;
-    width: 50vw;
-    height: 20rem;
-    padding: 4em;
-    margin: .9rem;
+    font-size: 1rem;
+    background-color: white;
+    padding: 2rem;
+    border-radius: .9rem;
+    transition: all .1s;
+    margin-bottom: 1rem;
     &:hover {
-        cursor: pointer;
+        transition: all .2s;
+        color: white;
+        background-color: $tertiary-color;
     }
     &__text {
-        font-size: 1.1rem;
-        display: flex;
-
         &__title {
-            position: absolute;
-            top: 0;
-            left: 0;
-            padding: 3rem;
-        }
-
-        &__paragraph {
-            transition: all 1.1s;
-            font-size: 1.3rem;
-        }
-    }
-    &:hover {
-        .project__text__paragraph {
-            font-size: 1.35rem;
+            margin-bottom: .5rem;
         }
     }
 }
