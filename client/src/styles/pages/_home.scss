@@ -1,16 +1,53 @@
-.container {
-    &__main {
-        &__topImage {
-            display: flex;
-            justify-content: center;
-        }
-    }
-}
+
 
 .home {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    margin-top: 4rem;
+    &__profile {
+        grid-column: 1 / 6;
+        background-color: $secondary-color;
+        border-top-right-radius: 2rem;
+        display: flex;
+        justify-content: flex-start;
+        padding: 2rem;
+        align-items: center;
+        height: 40vh;
+        color: $fifth-color;
+        &__img {
+            object-fit: cover;
+        }
+        &__text {
+            margin-left: 2rem;
+            font-size: .8rem;
+            * {
+                margin-bottom: .6rem;
+                &:last-child {
+                    margin-bottom: 0rem;
+                }
+            }
+        }
+    }
+
+    &__blog {
+        a {
+            color: $fifth-color;
+            text-decoration: none;
+        }
+        grid-column: 6 / 13;
+        &__title {
+            color: $fifth-color;
+            h2 {
+                font-size: 3.5rem;
+                margin-left: 3rem;
+            }
+            &:hover {
+                text-decoration: underline;
+                text-underline-offset: .1rem;
+                cursor: pointer;
+            }
+        }
+    }
 }
 
 .mysvg {
@@ -20,7 +57,7 @@
         transition: all 3s;
     }
     path:hover {
-        fill: $secondary-color;
+        fill: $base-color;
         transition: all .4s;
     }
 }

@@ -1,42 +1,9 @@
 
 body {
-    background-color: $secondary-color;
+    background-color: $base-color;
 }
 .header {
     padding: .5rem;
-    background: url(../../assets/other/tree.png);
-    background-position: bottom;
-    background-size: cover;
-    &__profile {
-        display: flex;
-        justify-content: center;
-        padding: 2rem;
-        &__img {
-            margin-right: 1rem;
-            transition: all .5s;
-            &:hover {
-                transition: all .5s;
-                transform: scale(1.2);
-            }
-        }
-        &__text {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            padding: 0rem 2rem;
-            font-size: .7rem;
-            color: $secondary-color;
-            line-height: 2.4em;
-            user-select: none;
-            * {
-                transition: all .5s;
-            }
-            *:hover {
-                transition: all .5s;
-                transform: scale(1.1);
-            }
-        }
-    }
     &__navigation {
         display: flex;
         justify-content: center;
@@ -49,17 +16,17 @@ body {
             text-align: center;
             font-size: .9rem;
             text-decoration: none;
-            color: $secondary-color;
             transition: all .2s;
             text-transform: uppercase;
             font-weight: 600;
+            color: $forth-color;
         }
         a:hover {
-            color: white;
+            color: $fifth-color;
             transform: scale(1.08);
         }
         .selected {
-            color: white;
+            color: $fifth-color;
         }
     }
 
