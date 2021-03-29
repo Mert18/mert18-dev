@@ -6,20 +6,17 @@
     margin-top: 4rem;
     &__profile {
         grid-column: 1 / 6;
-        background-color: $secondary-color;
         border-top-right-radius: 2rem;
         display: flex;
-        justify-content: flex-start;
+        justify-content: center;
         padding: 2rem;
-        align-items: center;
-        height: 40vh;
+        align-items: flex-start;
+        text-align: center;
         color: $fifth-color;
-        &__img {
-            object-fit: cover;
-        }
         &__text {
             margin-left: 2rem;
-            font-size: .8rem;
+            font-size: 2rem;
+
             * {
                 margin-bottom: .6rem;
                 &:last-child {

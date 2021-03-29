@@ -3,11 +3,18 @@ body {
     background-color: $base-color;
 }
 .header {
-    padding: .5rem;
+    background-color: $first-color;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+    &__name {
+        font-size: 1.6rem;
+        color: $fifth-color;
+    }
     &__navigation {
         display: flex;
         justify-content: center;
-        width: 100%;
         user-select: none;
         a {
             margin: .5rem;
@@ -19,14 +26,14 @@ body {
             transition: all .2s;
             text-transform: uppercase;
             font-weight: 600;
-            color: $forth-color;
+            color: $fifth-color;
         }
         a:hover {
-            color: $fifth-color;
+            color: $third-color;
             transform: scale(1.08);
         }
         .selected {
-            color: $fifth-color;
+            color: $third-color;
         }
     }
 
