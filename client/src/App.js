@@ -4,13 +4,14 @@ import './styles/main.scss'
 import { useDispatch } from 'react-redux';
 import { getPosts } from './actions/Posts.js';
 
-
 import Header from './components/Header.js'
-import Home from './components/Home.js'
-import About from './components/About'
-import Projects from './components/Projects'
-import Blog from './components/Blog'
-import Art from './components/Art'
+
+/* SCREENS */
+import Home from './components/screens/Home.js'
+import About from './components/screens/About'
+import Projects from './components/screens/Projects'
+import Blog from './components/screens/Blog'
+import Art from './components/screens/Art'
 
 import {
     BrowserRouter as Router,

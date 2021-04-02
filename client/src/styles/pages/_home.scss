@@ -1,60 +1,48 @@
 
-
 .home {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-    margin-top: 4rem;
-    &__profile {
-        grid-column: 1 / 6;
-        border-top-right-radius: 2rem;
-        display: flex;
-        justify-content: center;
-        padding: 2rem;
-        align-items: flex-start;
-        text-align: center;
-        color: $fifth-color;
-        &__text {
-            margin-left: 2rem;
-            font-size: 2rem;
+    margin-top: 2rem;
 
-            * {
-                margin-bottom: .6rem;
-                &:last-child {
-                    margin-bottom: 0rem;
-                }
-            }
+    &__hero {
+        height: 50vh;
+        grid-column: 1 / -1;
+        display: grid;
+        grid-template-columns: repeat(8, 1fr);
+        &__title {
+            grid-column: 2 / 5;
+            color: $red;
+            font-size: 3.5rem;
+            align-self: center;
+        }
+        &__text {
+            
         }
     }
 
     &__blog {
-        a {
-            color: $fifth-color;
-            text-decoration: none;
-        }
-        grid-column: 6 / 13;
+        grid-column: 2 / 7;
+        padding: .2rem;
+        color: $red;
         &__title {
-            color: $fifth-color;
-            h2 {
-                font-size: 3.5rem;
-                margin-left: 3rem;
+            font-size: 1.5rem;
+        }
+        &__blog {
+            padding: 1rem;
+            &__blog {
+                border-top: 2px solid $red;
+                font-size: 1rem;
+                padding: 1rem;
+                * {
+                    margin-bottom: .3rem;
+                }
+                &:hover {
+                    color: $cred;
+                    cursor: pointer;
+                }
             }
-            &:hover {
-                text-decoration: underline;
-                text-underline-offset: .1rem;
-                cursor: pointer;
-            }
+            
         }
     }
 }
 
-.mysvg {
-    border-radius: 2rem;
-    margin-top: 2rem;
-    path {
-        transition: all 3s;
-    }
-    path:hover {
-        fill: $base-color;
-        transition: all .4s;
-    }
-}
