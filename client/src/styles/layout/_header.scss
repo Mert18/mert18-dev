@@ -5,7 +5,7 @@
     justify-content: space-around;
     align-items: center;
     padding: .2rem;
-    background-color: $red;
+    background-color: $pink;
     color: $white;
     &__navigation {
         display: flex;
@@ -21,13 +21,13 @@
             transition: all .2s;
             text-transform: uppercase;
             font-weight: 600;
-        color: $white;
+            color: $white;
         }
         a:hover {
             transform: scale(1.08);
         }
         .selected {
-            color: $yellow;
+            color: $blue;
         }
     }
 

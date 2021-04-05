@@ -6,31 +6,33 @@
 
     &__hero {
         height: 50vh;
-        grid-column: 1 / -1;
+        grid-column: 1 / 7;
         display: grid;
         grid-template-columns: repeat(8, 1fr);
         &__title {
-            grid-column: 2 / 5;
-            color: $red;
+            grid-column: 2 / -1;
+            color: $pink;
             font-size: 3.5rem;
             align-self: center;
         }
-        &__text {
-            
-        }
+    }
+
+    &__art {
+        grid-column: 8 / 12;
     }
 
     &__blog {
-        grid-column: 2 / 7;
+        grid-column: 2 / 8;
         padding: .2rem;
-        color: $red;
+        color: $pink;
+        margin-top: 3rem;
         &__title {
             font-size: 1.5rem;
         }
         &__blog {
             padding: 1rem;
             &__blog {
-                border-top: 2px solid $red;
+                border-top: 2px solid $pink;
                 font-size: 1rem;
                 padding: 1rem;
                 * {
@@ -44,5 +46,15 @@
             
         }
     }
-}
 
+    &__projects {
+        grid-column: 2 / 12;
+        display: flex;
+        margin-top: 1rem;
+        &__title {
+            grid-column: 2 / -1;
+            font-size: 1.4rem;
+            color: $pink;
+        }
+    }
+}

@@ -7,9 +7,20 @@ const Home = () => {
             <div className="home__hero">
                 <div className="home__hero__title">
                     <h1>Mert Uygur</h1>
+                    <a href="https://github.com/Mert18" target="_blank" rel="noreferrer">
+                        <img src="/images/icons8-github.svg" alt="github icon" width="75px" />
+                    </a>
+                    <a href="https://www.linkedin.com/in/mert-u-8248ab135/" target="_blank" rel="noreferrer">
+                        <img src="/images/icons8-linkedin.svg" alt="linkedin icon" width="75px" />
+                    </a>
+                    <a href="https://twitter.com/mert18dev" target="_blank" rel="noreferrer">
+                        <img src="/images/icons8-twitter.svg" alt="twitter icon" width="75px" />
+                    </a>
+
                 </div>
-                <div className="home__hero__text">
-                </div>
+            </div>
+            <div className="home__art">
+
             </div>
             <div className="home__blog">
                 <div className="home__blog__title">
@@ -43,7 +54,24 @@ const Home = () => {
                         </div>
                     </div>
                     {/* SINGLE BLOGPOST */}
+                </div>
+            </div>
 
+            <div className="home__projects__title">
+                <h2>Projects</h2>
+            </div>
+            <div className="home__projects">
+
+                <div className="project">
+                    <div className="project__image">
+                        <img src="/images/bg.jpg" alt="bgone" width="450px" />
+                    </div>
+                    <div className="project__title">
+                        <h2>Hunnel Puga</h2>
+                    </div>
+                    <div className="project__text">
+                        <p>leor gama efo buna ego ugi.</p>
+                    </div>
                 </div>
             </div>
             {/*<TopImage />*/}
