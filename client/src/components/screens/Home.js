@@ -19,9 +19,6 @@ const Home = () => {
 
                 </div>
             </div>
-            <div className="home__art">
-
-            </div>
             <div className="home__blog">
                 <div className="home__blog__title">
                     <h2>Latest</h2>
@@ -57,22 +54,49 @@ const Home = () => {
                 </div>
             </div>
 
-            <div className="home__projects__title">
-                <h2>Projects</h2>
-            </div>
-            <div className="home__projects">
 
-                <div className="project">
-                    <div className="project__image">
-                        <img src="/images/bg.jpg" alt="bgone" width="450px" />
+            <div className="home__projects">
+                <div className="home__projects__title">
+                    <h2>Projects</h2>
+                </div>
+                <div className="home__projects__projects">
+                    <div className="project">
+                        <div className="project__image">
+                            <img src="/images/bg.jpg" alt="bgone" width="450px" />
+                        </div>
+                        <div className="project__title">
+                            <h2>Hunnel Puga</h2>
+                        </div>
+                        <div className="project__text">
+                            <p>leor gama efo buna ego ugi.</p>
+                        </div>
                     </div>
-                    <div className="project__title">
-                        <h2>Hunnel Puga</h2>
+
+                    <div className="project">
+                        <div className="project__image">
+                            <img src="/images/bg.jpg" alt="bgone" width="450px" />
+                        </div>
+                        <div className="project__title">
+                            <h2>Hunnel Puga</h2>
+                        </div>
+                        <div className="project__text">
+                            <p>leor gama efo buna ego ugi.</p>
+                        </div>
                     </div>
-                    <div className="project__text">
-                        <p>leor gama efo buna ego ugi.</p>
+
+                    <div className="project">
+                        <div className="project__image">
+                            <img src="/images/bg.jpg" alt="bgone" width="450px" />
+                        </div>
+                        <div className="project__title">
+                            <h2>Hunnel Puga</h2>
+                        </div>
+                        <div className="project__text">
+                            <p>leor gama efo buna ego ugi.</p>
+                        </div>
                     </div>
                 </div>
+
             </div>
             {/*<TopImage />*/}
         </section>

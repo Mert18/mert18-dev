@@ -17,12 +17,8 @@
         }
     }
 
-    &__art {
-        grid-column: 8 / 12;
-    }
-
     &__blog {
-        grid-column: 2 / 8;
+        grid-column: 7 / 12;
         padding: .2rem;
         color: $mblue;
         margin-top: 3rem;
@@ -51,10 +47,18 @@
         grid-column: 2 / 12;
         display: flex;
         margin-top: 1rem;
+        flex-direction: column;
+        display: grid;
+        grid-template-columns: repeat(8, 1fr);
         &__title {
             grid-column: 2 / -1;
             font-size: 1.4rem;
             color: $dblue;
+        }
+        &__projects {
+            grid-column: 1 / -1;
+            display: flex;
+            justify-content: center;
         }
     }
 }
