@@ -5,7 +5,7 @@
     justify-content: space-around;
     align-items: center;
     padding: .2rem;
-    background-color: $dblue;
+    background-color: #CC2936;
     color: $white;
     &__navigation {
         display: flex;
@@ -27,7 +27,7 @@
             transform: scale(1.08);
         }
         .selected {
-            color: $blue;
+            color: $t-4;
         }
     }
 
