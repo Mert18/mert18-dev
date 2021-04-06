@@ -1,8 +1,6 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import './styles/main.scss'
 
-import { useDispatch } from 'react-redux';
-import { getPosts } from './actions/Posts.js';
 
 import Header from './components/Header.js'
 
@@ -21,11 +19,6 @@ import {
 
 
 const App = () => {
-    const dispatch = useDispatch();
-
-    useEffect(() => {
-        dispatch(getPosts());
-    }, [dispatch])
     return (
         <Router>
             <div className="container">

@@ -11,7 +11,7 @@
         grid-template-columns: repeat(8, 1fr);
         &__title {
             grid-column: 2 / -1;
-            color: $pink;
+            color: $mblue;
             font-size: 3.5rem;
             align-self: center;
         }
@@ -24,7 +24,7 @@
     &__blog {
         grid-column: 2 / 8;
         padding: .2rem;
-        color: $pink;
+        color: $mblue;
         margin-top: 3rem;
         &__title {
             font-size: 1.5rem;
@@ -32,14 +32,14 @@
         &__blog {
             padding: 1rem;
             &__blog {
-                border-top: 2px solid $pink;
+                border-top: 2px solid $dblue;
                 font-size: 1rem;
                 padding: 1rem;
                 * {
                     margin-bottom: .3rem;
                 }
                 &:hover {
-                    color: $cred;
+                    color: $dblue;
                     cursor: pointer;
                 }
             }
@@ -54,7 +54,7 @@
         &__title {
             grid-column: 2 / -1;
             font-size: 1.4rem;
-            color: $pink;
+            color: $dblue;
         }
     }
 }
